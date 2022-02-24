@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get "restaurants/:id/edit", to: "restaurants#edit"
   patch "restaurants/:id", to: "restaurants#edit"
   # delete a restaurant
-  delete "/restuarants/:id", to "restaurants#destroy"
+  delete "/restuarants/:id", to: "restaurants#destroy"
   # Defines the root path route ("/")
   # root "articles#index"
 end
